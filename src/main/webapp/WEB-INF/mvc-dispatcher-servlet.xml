@@ -4,6 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+<<<<<<< HEAD
     <bean name="/welcome.htm"
           class="com.gangofthree.testsystem.controller.Controller" />
     <bean name="/"
@@ -20,4 +21,10 @@
             <value>.jsp</value>
         </property>
     </bean>
+=======
+    <mvc:annotation-driven />
+    <context:component-scan base-package="com.gangofthree.testsystem"/>
+
+
+>>>>>>> Gafurov0ivan/master
 </beans>
